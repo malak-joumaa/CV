@@ -50,7 +50,7 @@ h2{
     border-radius: 50%;
     box-shadow: rgba(0,0,0,0.4) 0px 5px 10px;
 }
-#name{
+h1{
     color: black;
     letter-spacing: 5px;
 }
@@ -115,15 +115,18 @@ h4{
 }
 
 /* Hobbies Section */
-.hobbiesDiv{
+#hobbiesDiv{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#hobbiesDiv .bx{
+    color: #af4b81;
+}
 
 /* Education Section */
-#eduTd{
+td:first-child{
     width: 33%;
 }
 
@@ -137,14 +140,14 @@ a:hover{
     color: #b75088;
 }
 
-.lang{
+li>span{
     margin-left: 30%;
 }
 
 
 /* Media queries */
 
-@media (max-width: 769px) {
+@media (max-width: 780px) {
     #container{
         flex-direction: column;
         margin-left: 0;
