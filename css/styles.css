@@ -53,27 +53,18 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-#hobbiesDiv{
-    width: 700px;
+/* Experience Section */
+h4{
+    margin-top: 0;
+    color: #b75088;
 }
-
 .date{
     font-size: 14px;
     color: #b75088;
     font-style: italic;
 }
-
-a:link, a:visited{
-    color: black;
-    text-decoration: none;
-}
-a:hover{
-    color: #c770a1;
-}
-
 .experience {
     display: flex;
     flex-direction: row;
@@ -97,7 +88,26 @@ a:hover{
     transform: translate(0.5rem, 0);
 }
 
-h4{
-    margin-top: 0;
-    color: #b75088;
+/* Skills Section */
+.skill{
+    background-color: #91446d;
+    color: #f5f5f5;
+    border: 5px solid #91446d;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+} 
+#skillsDiv{
+    width: 70%; 
+    margin:0 auto;
+}
+
+/* Links */
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #c770a1;
 }
