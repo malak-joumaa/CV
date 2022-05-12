@@ -144,24 +144,12 @@ a:hover{
 
 /* Media queries */
 
-@media (max-width: 570px) {
+@media (max-width: 769px) {
     #container{
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
         width: 100%;
-    }
-    .hobbiesDiv{
-        flex-direction: column;
-        justify-content: initial;
-    }
-}
-
-@media (max-width: 780px) {
-    #container{
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
     }
     .hobbiesDiv{
         flex-direction: column;
