@@ -6,6 +6,7 @@ body{
 
 h2{
     letter-spacing: 5px;
+    color: #6c4a5d;
 }
 
 #name{
@@ -13,6 +14,7 @@ h2{
     letter-spacing: 5px;
 }
 
+/* Container for the two main sections */
 #container{
     background-color: #f5f5f5;
     height: 100%;
@@ -51,4 +53,46 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.date{
+    font-size: 14px;
+    color: #b75088;
+    font-style: italic;
+}
+
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #c770a1;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+.experience .time_line {
+    margin-top: 1px;
+}
+.experience .time_line .time_point {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    background: #6c4a5d;
+    border-radius: 50%;
+}
+.experience .time_line .time_road {
+    width: 0.2rem;
+    height: 100%;
+    display: block;
+    background: #6c4a5d;
+    transform: translate(0.5rem, 0);
+}
+
+h4{
+    margin-top: 0;
+    color: #b75088;
 }
