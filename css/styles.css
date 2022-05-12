@@ -49,10 +49,15 @@ h2{
     box-shadow: rgba(0,0,0,0.4) 0px 5px 10px;
 }
 
-#skillsDiv{
+.flexDiv{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#hobbiesDiv{
+    width: 700px;
 }
 
 .date{
